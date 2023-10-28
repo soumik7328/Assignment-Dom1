@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 10px;
+}
+
+button{
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#displayvalue {
+    font-size: 25px;
+    padding: 5px 15px;
+    border: 1px solid black;
+  }
+
+  .resetbtn{
+    padding: 15px;
+  }

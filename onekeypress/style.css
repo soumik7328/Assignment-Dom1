@@ -1,0 +1,26 @@
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  
+  /* Style the input element */
+  input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  /* Add the pulse animation when the input is focused */
+  input:focus {
+    animation: pulse 1s infinite;
+  }
